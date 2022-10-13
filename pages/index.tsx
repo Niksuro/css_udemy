@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
-import DefaultOrganism from "../organism/default-organism/DefaultOrganism";
+import Header from "../organism/Header/Header";
 
 const Home: NextPage = () => {
-  return <DefaultOrganism>Texto de prueba</DefaultOrganism>;
+  return <>
+  <Header />
+  </>;
 };
 
 export default Home;

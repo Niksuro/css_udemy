@@ -1,4 +1,4 @@
-import { StyledParagraph } from "./Default.style";
+import { StyledParagraph } from "./DefaultOrganism.style";
 
 const Default = ({children}:any) => {
     return (
