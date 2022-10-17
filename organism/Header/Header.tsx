@@ -1,3 +1,4 @@
+import RoundButton from "../../components/atoms/Buttons/RoundButton/RoundButton";
 import NextImage from "../../components/atoms/Image";
 import {
   HeaderWrapper,
@@ -30,6 +31,7 @@ const Header = () => {
           <HeadingPrimaryMain>Quinn</HeadingPrimaryMain>
           <HeadingPrimarySub>is all that matters</HeadingPrimarySub>
         </HeadingPrimary>
+        <RoundButton variant={'white'}>Discover our builds</RoundButton>
       </TextBox>
     </HeaderWrapper>
   );

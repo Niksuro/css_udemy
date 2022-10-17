@@ -39,11 +39,13 @@ export const TextBox = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 `;
 export const HeadingPrimary = styled.h1`
   color: white;
   text-transform: uppercase;
   backface-visibility: hidden;
+  margin-bottom: 60px;
 `;
 export const HeadingPrimaryMain = styled.span`
   display: block;
