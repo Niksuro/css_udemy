@@ -5,12 +5,13 @@ interface variant {
 }
 
 const moveInDown = keyframes`
- 0% { opacity: 0; transform: translateY(30px) }
- 100% { opacity: 1; transform: translateY(0px) }
+ 0% { opacity: 0; transform: translateY(3rem) }
+ 100% { opacity: 1; transform: translateY(0rem) }
 `;
 
 export const Button = styled.a<variant>`
-  border-radius: 100px;  
+  border-radius: 10rem;  
+  font-size: 1.6rem;
   ${({ variant }) =>
     variant === "white" &&
     css`
@@ -33,7 +34,7 @@ export const Button = styled.a<variant>`
     display: inline-block;
     height: 100%;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 10rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -44,21 +45,21 @@ export const Button = styled.a<variant>`
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
     transition: all 0.2s;
     position: relative;
   }
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem, 2rem rgba(0, 0, 0, 0.2);
     &::after {
     transform: scale(1.5);
     opacity: 0;
   }
   }
   &:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
   }
 `;

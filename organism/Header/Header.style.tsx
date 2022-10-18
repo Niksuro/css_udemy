@@ -24,15 +24,15 @@ export const HeaderWrapper = styled.header`
 
 export const LogoBox = styled.div`
   position: absolute;
-  top: 40px;
-  left: 40px;
+  top: 4rem;
+  left: 4rem;
 `;
 export const LogoBoxImgIntrinsic = styled.img`
-  height: 100px;
+  height: 10rem;
 `;
 export const LogoBoxImg = styled.div`
-  height: 100px;
-  width: 100px;
+  height: 10rem;
+  width: 10rem;
 `;
 export const TextBox = styled.div`
   position: absolute;
@@ -45,13 +45,13 @@ export const HeadingPrimary = styled.h1`
   color: white;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 `;
 export const HeadingPrimaryMain = styled.span`
   display: block;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 35px;
+  letter-spacing: 3.5rem;
 
   animation-name: ${moveInUp};
   animation-duration: 2s;
@@ -59,9 +59,9 @@ export const HeadingPrimaryMain = styled.span`
 `;
 export const HeadingPrimarySub = styled.span`
   display: block;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 700;
-  letter-spacing: 10px;
+  letter-spacing: 1rem;
 
   animation: ${moveInDown} 2s ease-out;
 `;
