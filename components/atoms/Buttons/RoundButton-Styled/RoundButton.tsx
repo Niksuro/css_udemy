@@ -1,9 +1,10 @@
+import { Button } from "./RoundButton.style";
 
 const RoundButton = ({children, variant}:any) => {
     return (
-        <a href="#" className="btn btn--white btn--animated">
+        <Button href="#" variant={variant}>
             {children}
-        </a>
+        </Button>
     );
 }
 
