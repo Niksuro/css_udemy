@@ -1,6 +1,6 @@
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #7ed56f90, #28b485ea),
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
     url(/img/star_guardian_quinn.jpg);
   background-size: cover;
   background-position: top;
@@ -25,7 +25,7 @@
 }
 
 .heading-primary {
-  color: white;
+  color: $color-text-light;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
